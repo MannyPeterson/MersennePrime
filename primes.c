@@ -20,7 +20,7 @@ int master(struct stateStruct *);
 void *worker(void *);
 int main(int argc, char **argv) {
 	struct stateStruct state;
-	printf("Mersenne Prime Program (C)Copyright 2015 Manny & Sam Peterson All Rights Reserved.\n");
+	printf("Mersenne Prime Program (C)Copyright 2015 Manny Peterson All Rights Reserved.\n");
 	if (initState(&state) == EXIT_ERROR) {
 		exit(EXIT_ERROR);
 	}
